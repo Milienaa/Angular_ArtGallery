@@ -1,0 +1,29 @@
+.header {
+    background-color: #687df1;
+    color: #fff;
+    padding: 20px 0;
+
+    .wrapper {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 5px 10px;
+    }
+
+
+}
+
+.main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 10px;
+}

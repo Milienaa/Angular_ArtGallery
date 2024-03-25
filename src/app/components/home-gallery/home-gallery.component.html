@@ -1,0 +1,12 @@
+<div class="section">
+    <div class="section__content" *ngFor="let item of demoPics">
+        <img src="{{item.img}}" alt="">
+        <div class="title">
+            <h2>{{item.title}}</h2>
+            <h3>{{item.author}}</h3>
+        </div>
+        <p class="description">{{item.description}}</p>
+        <button (click)="onClickButton(item)">Read more</button>
+    </div>
+</div>
+

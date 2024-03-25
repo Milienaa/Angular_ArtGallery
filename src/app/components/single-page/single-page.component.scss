@@ -1,0 +1,17 @@
+.back {
+    font: {
+        weight: bold;
+        size:40px;
+    }
+    color: #687df1;
+    cursor: pointer;
+}
+
+.section__content {
+    text-align: center;
+
+    img {
+        display: block;
+        margin: 5px auto;
+    }
+}

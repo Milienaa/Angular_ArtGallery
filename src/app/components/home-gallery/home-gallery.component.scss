@@ -1,0 +1,48 @@
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    &__content {
+        flex-basis: 40%;
+        flex-grow: 1;
+        border: 1px solid #dbdbdb;
+    }
+
+    h1 {
+        flex-basis: 100%;
+    }
+
+    h2 {
+        font-size: 1em;
+        padding: 7.5px;
+    }
+
+    h3 {
+        padding: 0 7.5px;
+    }
+
+    p {
+        padding: 7.5px;
+    }
+
+    img {
+        display: block;
+        width: 100%;
+    }
+
+    button {
+        display: block;
+        width: 50%;
+        margin: 10px auto;
+        padding: 7.5px 15px;
+        background-color: #687df1;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #3450f0;
+        }
+    }
+}

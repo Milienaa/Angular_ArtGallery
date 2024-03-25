@@ -1,0 +1,15 @@
+<div class="single__wrapper">
+    <div class="main__pic">
+        <div class="back" (click)="onClickBackButton()">&larr;</div>
+        <div class="section__content" *ngIf="pic">
+            <img src="{{pic.img}}" alt="{{pic.title}}">
+            <div class="title">
+                <h2>{{pic.title}}</h2>
+                <h3>{{pic.author}}</h3>
+            </div>
+            <p class="description">{{pic.text}}</p>
+        </div>
+    </div>
+    
+
+</div>
